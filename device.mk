@@ -78,6 +78,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 	init.device.rc
 
+# Remove_packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi

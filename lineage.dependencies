@@ -1,0 +1,47 @@
+[
+  {
+    "repository": "bulla0x/device_xiaomi_lavender",
+    "target_path": "device/xiaomi/sdm660-common",
+    "remote": "github",
+    "branch": "Pix-a17-common"
+  },
+  {
+    "repository": "pix106/android_vendor_xiaomi_sm8150-common",
+    "target_path": "vendor/xiaomi/sdm660-common",
+    "remote": "github",
+    "branch": "17.0",
+    "depth": 1
+  },
+  {
+    "repository": "bulla0x/android_vendor_xiaomi_lavender",
+    "target_path": "vendor/xiaomi/lavender",
+    "remote": "github",
+    "branch": "17.0",
+    "depth": 1
+  },
+  {
+    "repository": "bulla0x/kernel_xiaomi_lavender",
+    "target_path": "kernel/xiaomi/sdm660",
+    "remote": "github",
+    "branch": "old/main-dynamic",
+    "depth": 1
+  },
+  {
+    "repository": "crdroidandroid/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "remote": "github",
+    "branch": "17.0-raphael"
+  },
+  {
+    "repository": "crdroidandroid/android_hardware_dolby",
+    "target_path": "hardware/dolby",
+    "remote": "github",
+    "branch": "17.0-redwood"
+  },
+  {
+    "repository": "pix106/android_hardware_qcom-caf_camera",
+    "target_path": "hardware/qcom-caf/sdm660/camera",
+    "remote": "github",
+    "branch": "sdm660-4.19-12.2.1.r1-sdm660-commonized"
+  }
+]

@@ -33,6 +33,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=xiaomi/lavender/lavender:10/QKQ1.190910.002/V12.5.3.0.QFGCNXM:user/release-keys \
     DeviceProduct=lavender
 
+# Flags
+TARGET_ENABLE_BLUR := false
+TARGET_SUPPORTS_QUICK_TAP := true
+BYPASS_CHARGE_SUPPORTED := false
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+MISTOS_MAINTAINER := BULLA
+MIST_BUILD_TYPE := OFFICIAL
+TARGET_DISABLE_EPPE = true
+
 # Device identifier
 PRODUCT_NAME := lineage_lavender
 PRODUCT_MANUFACTURER := Xiaomi
